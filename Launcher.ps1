@@ -2,15 +2,17 @@
 #        GAME INSTALLATION LAUNCHER
 # ========================================
 
-# Clear screen and set color
 Clear-Host
+
+# ---------------- ASCII Banner ----------------
 Write-Host ""
-Write-Host "  ██████╗  █████╗ ███╗   ███╗███████╗" -ForegroundColor Green
-Write-Host " ██╔════╝ ██╔══██╗████╗ ████║██╔════╝" -ForegroundColor Green
-Write-Host " ██║  ███╗███████║██╔████╔██║█████╗  " -ForegroundColor Green
-Write-Host " ██║   ██║██╔══██║██║╚██╔╝██║██╔══╝  " -ForegroundColor Green
-Write-Host " ╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗" -ForegroundColor Green
-Write-Host "  ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝" -ForegroundColor Green
+Write-Host "==================================================" -ForegroundColor Green
+Write-Host "        ____   ___   _   _   ____  _             " -ForegroundColor Green
+Write-Host "       / ___| / _ \ | | | | / ___|| | ___   ___  " -ForegroundColor Green
+Write-Host "       \___ \| | | || | | || |    | |/ _ \ / _ \ " -ForegroundColor Green
+Write-Host "        ___) | |_| || |_| || |___ | | (_) |  __/ " -ForegroundColor Green
+Write-Host "       |____/ \__\_\\\___/  \____||_|\___/ \___| " -ForegroundColor Green
+Write-Host "==================================================" -ForegroundColor Green
 Write-Host ""
 
 # -------------------- INPUTS --------------------
@@ -34,7 +36,6 @@ Clear-Host
 Write-Host "Phase 1: Environment validation" -ForegroundColor Cyan
 Write-Host ""
 
-# Simulate loop
 1..200 | ForEach-Object {
     Write-Host "[$_] Calibrating numerical baselines..."
     Start-Sleep -Milliseconds 10
@@ -76,12 +77,12 @@ Write-Host ""
 
 # -------------------- COMPLETION --------------------
 Write-Host ""
-Write-Host "=========================================" -ForegroundColor Green
+Write-Host "==================================================" -ForegroundColor Green
 Write-Host "PROCESS COMPLETED SUCCESSFULLY" -ForegroundColor Green
-Write-Host "-----------------------------------------" -ForegroundColor Green
+Write-Host "--------------------------------------------------" -ForegroundColor Green
 Write-Host "Project   : $gamename"
 Write-Host "App ID    : $appid"
 Write-Host "Workspace : $workspace"
 Write-Host "Status    : STABLE"
-Write-Host "=========================================" -ForegroundColor Green
+Write-Host "==================================================" -ForegroundColor Green
 Pause
