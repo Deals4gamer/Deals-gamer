@@ -6,13 +6,15 @@ Clear-Host
 
 # ---------------- ASCII Banner ----------------
 Write-Host ""
-Write-Host "==================================================" -ForegroundColor Green
-Write-Host "        ____   ___   _   _   ____  _             " -ForegroundColor Green
-Write-Host "       / ___| / _ \ | | | | / ___|| | ___   ___  " -ForegroundColor Green
-Write-Host "       \___ \| | | || | | || |    | |/ _ \ / _ \ " -ForegroundColor Green
-Write-Host "        ___) | |_| || |_| || |___ | | (_) |  __/ " -ForegroundColor Green
-Write-Host "       |____/ \__\_\\\___/  \____||_|\___/ \___| " -ForegroundColor Green
-Write-Host "==================================================" -ForegroundColor Green
+Write-Host "============================================================" -ForegroundColor Green
+Write-Host "  DDDDD   EEEEE   AAAAA   L       SSSSS    444   GGGGG   AAA   M   M  EEEEE  RRRR  " -ForegroundColor Green
+Write-Host "  D    D  E       A   A   L      S           44  G       A   A  MM MM  E      R   R " -ForegroundColor Green
+Write-Host "  D    D  EEEE    AAAAA   L       SSSSS      444  G  GGG  AAAAA  M M M  EEEE   RRRR  " -ForegroundColor Green
+Write-Host "  D    D  E       A   A   L            S     44   G    G  A   A  M   M  E      R  R  " -ForegroundColor Green
+Write-Host "  DDDDD   EEEEE   A   A   LLLLL   SSSSS      44    GGGGG   A   A  M   M  EEEEE  R   R " -ForegroundColor Green
+Write-Host ""
+Write-Host "                               DEALS4GAMER                                         " -ForegroundColor Yellow
+Write-Host "============================================================" -ForegroundColor Green
 Write-Host ""
 
 # -------------------- INPUTS --------------------
@@ -178,4 +180,5 @@ Write-Host "....................................................................
 Write-Host "....................................................................................................................................................................." -ForegroundColor Cyan
 
 Write-Host ""
+
 
