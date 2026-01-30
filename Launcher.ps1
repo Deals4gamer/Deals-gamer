@@ -15,6 +15,8 @@ Write-Host "  DDDDD   EEEEE   A   A   LLLLL   SSSSS      44    GGGGG   A   A  M 
 Write-Host ""
 Write-Host "                               DEALS4GAMER                                         " -ForegroundColor Yellow
 Write-Host "============================================================" -ForegroundColor Green
+    Write-Host "|            by DEALS4GAMER                                          |" -ForegroundColor DarkCyan
+    Write-Host "+====================================================================+" -ForegroundColor Cyan
 Write-Host ""
 
 # -------------------- INPUTS --------------------
@@ -180,5 +182,6 @@ Write-Host "....................................................................
 Write-Host "....................................................................................................................................................................." -ForegroundColor Cyan
 
 Write-Host ""
+
 
 
