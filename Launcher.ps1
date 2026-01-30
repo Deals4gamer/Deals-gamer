@@ -5,19 +5,13 @@
 Clear-Host
 
 # ---------------- ASCII Banner ----------------
+Write-Host "+====================================================================+" -ForegroundColor Cyan
+Write-Host "|            Built for Gamers, Priced for Players                    |" -ForegroundColor Cyan
+Write-Host "|            by DEALS4GAMER                                          |" -ForegroundColor DarkCyan
+Write-Host "+====================================================================+" -ForegroundColor Cyan
+
 Write-Host ""
-Write-Host "============================================================" -ForegroundColor Green
-Write-Host "  DDDDD   EEEEE   AAAAA   L       SSSSS    444   GGGGG   AAA   M   M  EEEEE  RRRR  " -ForegroundColor Green
-Write-Host "  D    D  E       A   A   L      S           44  G       A   A  MM MM  E      R   R " -ForegroundColor Green
-Write-Host "  D    D  EEEE    AAAAA   L       SSSSS      444  G  GGG  AAAAA  M M M  EEEE   RRRR  " -ForegroundColor Green
-Write-Host "  D    D  E       A   A   L            S     44   G    G  A   A  M   M  E      R  R  " -ForegroundColor Green
-Write-Host "  DDDDD   EEEEE   A   A   LLLLL   SSSSS      44    GGGGG   A   A  M   M  EEEEE  R   R " -ForegroundColor Green
-Write-Host ""
-Write-Host "                               DEALS4GAMER                                         " -ForegroundColor Yellow
-Write-Host "============================================================" -ForegroundColor Green
-    Write-Host "|            by DEALS4GAMER                                          |" -ForegroundColor DarkCyan
-    Write-Host "+====================================================================+" -ForegroundColor Cyan
-Write-Host ""
+
 
 # -------------------- INPUTS --------------------
 $workspace = Read-Host "Enter workspace path"
